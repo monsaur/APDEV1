@@ -1,8 +1,0 @@
-services:
-  - name: api
-    buildCommand: cd api && npm install && npm run build
-    startCommand: cd api && npm start
-    
-  - name: client
-    buildCommand: cd client && npm install && npm run build
-    startCommand: cd client && npm start
